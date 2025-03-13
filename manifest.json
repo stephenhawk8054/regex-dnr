@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Regex validation",
+  "description": "Validate regex with DNR",
+  "version": "0.1",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "declarativeNetRequest",
+    "declarativeNetRequestFeedback"
+  ],
+  "options_page": "dashboard.html"
+}
